@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    height: 70vh;
+    width: 100%;
+    background-image: url('https://walkingtree.co/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F1me0hcdt%2Fproduction%2Fed978fe2404a0c0767c63581347f637b452352f5-2000x1224.png%3Fq%3D100&w=1920&q=100');
+    background-size: cover;
+    /* Ensure the background image covers the entire container */
+    color: white;
+    /* Set text color to white for better visibility */
+    text-align: center;
+    /* Center text within the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.section2 {
+    display: flex;
+    padding: 150px;
+}
+
+
+
+.section2left {
+    width: 45%;
+}
+
+.section2left h1 {
+    /* font-size: 25px; */
+}
+
+.section2right {
+    width: 55%;
+}
+
+.section2right p {
+    font-size: 20px;
+    color: gray;
+    font-weight: 300;
+}
+
+.section3 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.section3 h4 {
+    font-size: 20px;
+    color: gray;
+    font-weight: 300;
+}
+
+.section3 h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.section3div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section3div p {
+    font-size: 20px;
+    color: gray;
+}
+
+.section3div h4 {
+    font-style: italic;
+}
+
+
+
+.section4 {
+    /* padding: 50px; */
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    height: 100vh;
+}
+
+.section4left {
+    width: 30%;
+    background-color: red;
+}
+
+.section4left img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.section4right {
+    width: 70%;
+    background-color: green;
+}
+
+.section4right img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.section5 {
+    /* padding: 50px; */
+    display: flex;
+    width: 100%;
+    padding: 50px;
+    height: 100vh;
+}
+
+.section5left {
+    width: 70%;
+    background-color: red;
+}
+
+.section5left img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.section5right {
+    width: 30%;
+    background-color: green;
+}
+
+.section5right img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* .section6 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            height: 400px;
+            aspect-ratio: 1.5 / 1;
+            display: flex;
+            overflow: hidden;
+        }
+
+        .container:has(.img.active) .img:not(.active) {
+            filter: grayscale(100%)
+        }
+
+        img {
+            height: 100%;
+            width: calc(100% / 5);
+            object-fit: cover;
+            overflow: hidden;
+            border: 2px solid #141414;
+            transition: all 0.4s cubic-bezier(0.32, 0, 0.67, 0);
+            cursor: pointer;
+        }
+
+        .active {
+            width: 200%;
+        } */
+
+.section7 {
+    height: 100%;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section8 {
+    padding: 50px 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.section8 h5 {
+    font-size: 16px;
+    font-style: italic;
+    columns: gray;
+}
+
+.section8 h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.section8 p {
+    font-size: 20px;
+    color: gray;
+}
+
+button {
+    padding: 20px 100px;
+    outline: none;
+    border: none;
+    background-color: #ECEBEA;
+    margin-top: 20px;
+}
+
+.section9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    width: 100%;
+    gap: 20px;
+}
+
+.section9left {
+    width: 70%;
+    padding-right: 100px;
+}
+
+.section9left h5 {
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+}
+
+.section9left h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.section9left p {
+    font-size: 18px;
+    color: gray;
+}
+
+.section9right {
+    width: 30%;
+}
+
+.section9right img {
+    width: 100%;
+}
+
+.section10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 100px;
+    gap: 20px;
+}
+
+.section10left {
+    width: 60%;
+}
+
+.section10left img {
+    width: 100%;
+}
+
+.section10right {
+    width: 40%;
+}
+
+.section10right h5 {
+    font-size: 20px;
+    color: gray;
+    font-weight: 400;
+}
+
+.section10right h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.section10right p {
+    font-size: 18px;
+    color: gray;
+}
+
+.section11 {
+    padding: 50px 100px;
+}
+
+.section11up {
+    padding: 20px 200px;
+    text-align: center;
+}
+
+.section11up h2 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.section11up p {
+    font-size: 20px;
+    color: gray;
+}
+
+.section11bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.section11bottom .divv {
+    padding: 20px 100px;
+    text-align: center;
+}
+
+.section11bottom .divv h2 {
+    font-weight: 400;
+}
+
+.section11bottom .divv p {
+    color: gray;
+}
